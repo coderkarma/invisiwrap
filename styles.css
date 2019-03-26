@@ -1,0 +1,12 @@
+.heroImage>img {
+    width: 942px;
+    height: 600px;
+}
+
+.productImages {
+    border: 1px solid seagreen;
+}
+
+.products {
+    border: 1px solid grey;
+}
