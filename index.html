@@ -52,7 +52,7 @@
 
     <!-- ! Hero image -->
     <div class="row hero">
-        <div class="col s12 m6 l8 heroImage">
+        <div class="col s12 m6 l8 heroImage z-depth-2">
             <img src="https://images.unsplash.com/photo-1511947527012-6bb5876f488a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
                 alt="rain-coat">
         </div>
@@ -73,7 +73,7 @@
                 cumque. Dolor, nisi. Quam dignissimos cupiditate unde. Quisquam ex exercitationem a est quod delectus
                 aliquam fuga commodi nulla! Necessitatibus, tenetur aliquam.</p>
         </div>
-        <button class="waves-effect waves-light btn ">Product Info</button>
+        <button class="waves-effect waves-light btn ">Product-Details</button>
         <button class="waves-effect waves-light btn ">Pre-Order</button>
 
 
@@ -81,9 +81,9 @@
 
     <!-- ! products images grid -->
     <div class="row border">
-        <div class="col s12 m6 l4"><img src="/images/image1.JPG" alt="rainCoat1"></div>
-        <div class="col s12 m6 l4"><img src="/images/image1.JPG" alt="rainCoat1"></div>
-        <div class="col s12 m6 l4"><img src="/images/image1.JPG" alt="rainCoat1"></div>
+        <div class="col s12 m6 l4 z-depth-1"><img src="/images/image1.JPG" alt="rainCoat1"></div>
+        <div class="col s12 m6 l4 z-depth-1"><img src="/images/image1.JPG" alt="rainCoat1"></div>
+        <div class="col s12 m6 l4 z-depth-1"><img src="/images/image1.JPG" alt="rainCoat1"></div>
         <!-- <div class="col s12 m6 l3"><img src="/images/image1.JPG" alt="rainCoat1"></div> -->
     </div>
 
@@ -92,12 +92,21 @@
     <footer class="page-footer">
         <div class="container">
             <div class="row">
-                <div class="col l6 s12">
+                <div class="col l6 s12 z-depth-5">
                     <h5 class="white-text">Footer Content</h5>
                     <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer
                         content.</p>
+                        <a id="menu" class="waves-effect waves-light btn btn-floating" ><i class="material-icons">menu</i></a>
+
+  <!-- Tap Target Structure -->
+                        <div class="tap-target" data-target="menu">
+                            <div class="tap-target-content">
+                            <h5>Title</h5>
+                            <p>A bunch of text</p>
+                            </div>
+                        </div>
                 </div>
-                <div class="col l4 offset-l2 s12">
+                <div class="col l4 offset-l2 s12 z-depth-5">
                     <h5 class="white-text">Links</h5>
                     <ul>
                         <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
