@@ -30,7 +30,7 @@ button {
     display: block;
     margin: 0 auto;
     margin-top: 11px;
-    width: 148px;
+    width: 170px;
     border-radius: 23px;
 }
 
@@ -39,9 +39,21 @@ button {
 }
 
 .nav-brackground {
-    background-color: #17665F;
+    background-color: rgb(191, 194, 193);
 }
 
 .nav-wrapper {
     margin: 0 15px;
+}
+
+ul li a {
+    color: black;
+}
+
+.brand-logo {
+    color: black;
+}
+
+.page-footer {
+    background-color: rgb(191, 194, 193);
 }
