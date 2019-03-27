@@ -15,6 +15,23 @@
 </head>
 
 <body>
+    <style>
+            .signup {
+                position: fixed;
+                bottom: 100px;
+                left: 30px;
+                color: white;
+                background-color: #ee6e73;
+                height: 90px;
+                width: 180px;
+                position: absolute;
+                text-align: center;
+                padding-top: 7px;
+                border-radius: 6px;
+                cursor: pointer;
+                box-shadow: 5px 10px 18px #888888;
+            }
+        </style>
     <!--! Navbar START-->
     <nav class="nav-extended">
         <div class="nav-wrapper">
@@ -66,12 +83,43 @@
             <img src="/images/image3.jpg" alt="rainCoat3">
         </div>
     </div>
-
-
+    <div id="modal" class="modal">
+            <div class="modal-content">
+              <h4>Modal Header</h4>
+              <p>A bunch of text</p>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat submit">Submit</a>
+              <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat signup-later">Sign Up Later</a>
+            </div>
+        </div>
+            <button data-target="modal" class="btn modal-trigger signup"> 
+               SIGN UP 
+            </button>
     <!--!! ends here -->
     <!--JavaScript at end of body for optimized loading-->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script>
+                $(document).ready(function(){
+                    $('.sidenav').sidenav();
+                    $('.modal').modal();
+                    $('.modal').modal({
+                       dismissible: false
+                    });
+                    $('.signup').hide();
+                    $('.modal').modal('open');
+                    $('.signup-later').click(()=>{
+                       $('.signup').show();
+                    });
+                    $('.signup').click(()=>{
+                       $('.signup').hide();
+                    });
+                    $('.submit').click(()=>{
+                       //
+                    });
+                });
+           </script>    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
     <script src="scripts.js"></script>
