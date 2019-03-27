@@ -57,3 +57,26 @@ ul li a {
 .page-footer {
     background-color: rgb(191, 194, 193);
 }
+
+/*  */
+.signing-up {
+    position: fixed;
+    bottom: 100px;
+    left: 30px;
+    color: white;
+    background-color: #ee6e73 !important;
+    height: 90px;
+    width: 180px;
+    position: absolute;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+#mc_embed_signup {
+    background: #fff;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+}
