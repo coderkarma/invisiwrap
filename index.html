@@ -4,15 +4,13 @@
 <head>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="materialize.min.css" media="screen,projection" />
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+<!-- Page Content goes here -->
 
 <body>
     <style>
@@ -33,57 +31,91 @@
             }
         </style>
     <!--! Navbar START-->
-    <nav class="nav-extended">
+    <nav class="nav-extended nav-brackground">
         <div class="nav-wrapper">
             <a href="#" class="brand-logo">Logo</a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul id="nav-mobile" class="right fadeOut-on-med-and-down">
-                <li><a href="sass.html">HOME</a></li>
-                <li><a href="badges.html">JOURNAL</a></li>
-                <li><a href="collapsible.html">HELLO</a></li>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="journal.html">JOURNAL</a></li>
+                <li><a href="hello.html">HELLO</a></li>
             </ul>
         </div>
     </nav>
 
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
+        <li><a href="sass.html">HOME</a></li>
+        <li><a href="badges.html">JOURNAL</a></li>
+        <li><a href="collapsible.html">HELLO</a></li>
     </ul>
     <!--! Navbar END-->
 
     <!-- ! Hero image -->
-    <div class="row">
-        <div class="col s8 heroImage">
+    <div class="row hero">
+        <div class="col s12 m6 l8 heroImage">
             <img src="https://images.unsplash.com/photo-1511947527012-6bb5876f488a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
                 alt="rain-coat">
         </div>
-        <div class="col s4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, molestias consequatur atque soluta
-                commodi modi distinctio dolore officia tempore voluptate unde iste laboriosam doloribus.</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam sit deserunt similique porro,
-                quaerat totam quod quis illo perspiciatis consequatur reprehenderit nulla ex ut, fugit nesciunt commodi
-                neque enim! Recusandae, ratione odit cum corporis tempora, exercitationem modi perspiciatis aut alias
+        <div class="col s12 m6 l4">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, adipisci iste dolores eum enim est
+                reprehenderit veniam aperiam dolorem rem hic tempore dicta vero illo? Deleniti modi ipsam saepe
+                repellendus at vero distinctio fugiat quas facere assumenda architecto, pariatur ex facilis tempore
+                placeat recusandae officiis ab aperiam amet! Commodi, facere.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam sit deserunt similique
+                porro,
+                quaerat totam quod quis illo perspiciatis consequatur reprehenderit nulla ex ut, fugit nesciunt
+                commodi
+                neque enim! Recusandae, ratione odit cum corporis tempora, exercitationem modi perspiciatis aut
+                alias
                 velit qui optio amet? Possimus at esse sapiente necessitatibus.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias illum, maiores repellendus nobis totam a
+                itaque asperiores recusandae et in corporis doloribus eos blanditiis iusto quasi laborum dolores placeat
+                cumque. Dolor, nisi. Quam dignissimos cupiditate unde. Quisquam ex exercitationem a est quod delectus
+                aliquam fuga commodi nulla! Necessitatibus, tenetur aliquam.</p>
         </div>
-        <button class="waves-effect waves-light btn">Product Info</button>
-        <button class="waves-effect waves-light btn">Pre-Order</button>
+        <button class="waves-effect waves-light btn ">Product Info</button>
+        <button class="waves-effect waves-light btn ">Pre-Order</button>
+
+
     </div>
 
     <!-- ! products images grid -->
-
-    <div class="row productImages">
-        <div class="col s4 products responsive-img">
-            <img src="/images/image1.JPG" alt="rainCoat1">
-        </div>
-        <div class="col s4 products responsive-img">
-            <img src="/images/image2.jpeg" alt="rainCoat2">
-        </div>
-        <div class="col s4 products responsive-img">
-            <img src="/images/image3.jpg" alt="rainCoat3">
-        </div>
+    <div class="row border">
+        <div class="col s12 m6 l4"><img src="/images/image1.JPG" alt="rainCoat1"></div>
+        <div class="col s12 m6 l4"><img src="/images/image1.JPG" alt="rainCoat1"></div>
+        <div class="col s12 m6 l4"><img src="/images/image1.JPG" alt="rainCoat1"></div>
+        <!-- <div class="col s12 m6 l3"><img src="/images/image1.JPG" alt="rainCoat1"></div> -->
     </div>
-        <!--!! ends here -->
+
+
+    <!-- ! footer  -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer
+                        content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2019 Copyright.
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
+
 
         <!-- ! modal -->
 
@@ -162,5 +194,6 @@
     <script src="scripts.js"></script>
 
 </body>
+
 
 </html>

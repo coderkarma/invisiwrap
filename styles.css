@@ -1,6 +1,6 @@
-.heroImage>img {
-    width: 942px;
-    height: 600px;
+.heroImage img {
+    width: 100%;
+    height: auto;
 }
 
 .productImages {
@@ -9,4 +9,39 @@
 
 .products {
     border: 1px solid grey;
+}
+
+pre {
+    display: none;
+}
+
+.border img {
+    border: solid 1px green;
+    width: 100%;
+}
+
+button {
+    display: block;
+
+
+}
+
+.waves-effect {
+    display: block;
+    margin: 0 auto;
+    margin-top: 11px;
+    width: 148px;
+    border-radius: 23px;
+}
+
+.hero {
+    margin-top: 50px;
+}
+
+.nav-brackground {
+    background-color: #17665F;
+}
+
+.nav-wrapper {
+    margin: 0 15px;
 }
